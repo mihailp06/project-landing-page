@@ -40,15 +40,6 @@ a {
 
 /* Hero Section */
 
-h1 {
-  margin: 0;
-  font-size: 48px;
-}
-
-footer {
-  background-color: #1f2937;
-}
-
 #hero {
   padding: 100px 200px;
   background-color: #1f2937;
@@ -58,8 +49,13 @@ footer {
   justify-content: center;
 }
 
+#hero h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
 #hero img {
-  width: 1000px;
+  width: 900px;
   height: 250px;
 }
 
@@ -80,3 +76,41 @@ footer {
 }
 
 /* End Hero Section */
+
+/* Info Section */
+
+#info h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.item {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img {
+  height: 120px;
+  width: 120px;
+  border-radius: 5px;
+  border: 2px solid #3882f6;
+}
+
+.item p {
+  font-size: 12px;
+}
+
+/* Info Section */
+
+footer {
+  background-color: #1f2937;
+}

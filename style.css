@@ -189,6 +189,15 @@ a {
 
 /* End Call to Action Section */
 
+/* Footer Section */
+
 footer {
+  padding: 24px;
   background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* End Footer Section */
